@@ -1,0 +1,5 @@
+var client_ip = data.ipAddress
+var user_agent = navigator.userAgent;
+
+$.getJSON('https://test.test/ip=' + client_ip + '&ua=' + user_agent + '&hash=aabbInformationUserccdd' , function(data)
+});
